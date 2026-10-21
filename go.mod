@@ -15,6 +15,7 @@ require (
 	github.com/bgentry/speakeasy v0.2.0
 	github.com/bits-and-blooms/bitset v1.24.4
 	github.com/chzyer/readline v1.5.1
+	github.com/cloudflare/circl v1.6.1
 	github.com/cockroachdb/errors v1.13.0
 	github.com/cometbft/cometbft v0.39.3
 	github.com/cosmos/btcutil v1.0.5
@@ -360,3 +361,5 @@ retract (
 	// do not use
 	v0.43.0
 )
+
+replace github.com/cometbft/cometbft => github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021183822-45f280c0fd7e

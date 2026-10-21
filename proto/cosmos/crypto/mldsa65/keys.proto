@@ -1,0 +1,32 @@
+syntax = "proto3";
+package cosmos.crypto.mldsa65;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/cosmos/cosmos-sdk/crypto/keys/mldsa65";
+
+// PubKey is an ML-DSA-65 (FIPS 204, k=6/l=5) public key for handling
+// CometBFT keys in the SDK. It's needed for Any serialization and SDK
+// compatibility. Part of hOUR Chain's fork toward making ML-DSA an actual
+// CometBFT consensus signature type -- see cometbft's parallel
+// crypto/mldsa65 package and docs/GENESIS-DECISION-GATE.md "1b" in the
+// hOUR-Chain repo. Must not be used in a non-Tendermint key context
+// because it doesn't implement ADR-28.
+message PubKey {
+  option (amino.name) = "cometbft/PubKeyMlDsa65";
+  // The Amino encoding is simply the inner bytes field, and not the Amino
+  // encoding of the whole PubKey struct.
+  option (amino.message_encoding)     = "key_field";
+  option (gogoproto.goproto_stringer) = false;
+
+  bytes key = 1;
+}
+
+// PrivKey defines an ML-DSA-65 private key.
+message PrivKey {
+  option (amino.name)             = "cometbft/PrivKeyMlDsa65";
+  option (amino.message_encoding) = "key_field";
+
+  bytes key = 1;
+}
