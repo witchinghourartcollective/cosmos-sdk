@@ -957,6 +957,8 @@ github.com/urfave/cli v1.20.0/go.mod h1:70zkFmudgCuE/ngEzBv17Jvp/497gISqfk5gWijb
 github.com/urfave/cli v1.22.1/go.mod h1:Gos4lmkARVdJ6EkW0WaNv/tZAAMe9V7XWyB60NtXRu0=
 github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021183822-45f280c0fd7e h1:Jl2C4T8T86Mj17ZQiO91Pzwc6GN2wYZ+/CaOL7cCkWQ=
 github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021183822-45f280c0fd7e/go.mod h1:Gd99HcEtyJJjCdeCKSNK5bwCz1XTu2utVrSBuoggSiE=
+github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021205010-6fe9742a1098 h1:ZOGEhDK5tXxEOFSjwVB/IAtM/adSrVi5RgYwLNGVQyM=
+github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021205010-6fe9742a1098/go.mod h1:Gd99HcEtyJJjCdeCKSNK5bwCz1XTu2utVrSBuoggSiE=
 github.com/wlynxg/anet v0.0.3/go.mod h1:eay5PRQr7fIVAMbTbchTnO9gG65Hg/uYGdc7mguHxoA=
 github.com/wlynxg/anet v0.0.5 h1:J3VJGi1gvo0JwZ/P1/Yc/8p63SoW98B5dHkYDmpgvvU=
 github.com/wlynxg/anet v0.0.5/go.mod h1:eay5PRQr7fIVAMbTbchTnO9gG65Hg/uYGdc7mguHxoA=
