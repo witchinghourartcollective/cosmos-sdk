@@ -36,8 +36,8 @@ func TestCometBFTProtoRoundTrip(t *testing.T) {
 	if err != nil {
 		t.Fatalf("ToCmtProtoPublicKey failed: %v", err)
 	}
-	if proto.GetMlDsa65() == nil {
-		t.Fatal("expected PublicKey_MlDsa65 in proto oneof, got something else")
+	if proto.GetMldsa65() == nil {
+		t.Fatal("expected PublicKey_Mldsa65 in proto oneof, got something else")
 	}
 
 	back, err := codec.FromCmtProtoPublicKey(proto)

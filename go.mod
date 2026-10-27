@@ -362,4 +362,4 @@ retract (
 	v0.43.0
 )
 
-replace github.com/cometbft/cometbft => github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021205010-6fe9742a1098
+replace github.com/cometbft/cometbft => github.com/witchinghourartcollective/cometbft v0.39.4-0.20261027210213-dab026fe93b9

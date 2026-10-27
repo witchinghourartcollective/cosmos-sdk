@@ -959,6 +959,8 @@ github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021183822-45f280c0f
 github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021183822-45f280c0fd7e/go.mod h1:Gd99HcEtyJJjCdeCKSNK5bwCz1XTu2utVrSBuoggSiE=
 github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021205010-6fe9742a1098 h1:ZOGEhDK5tXxEOFSjwVB/IAtM/adSrVi5RgYwLNGVQyM=
 github.com/witchinghourartcollective/cometbft v0.39.4-0.20261021205010-6fe9742a1098/go.mod h1:Gd99HcEtyJJjCdeCKSNK5bwCz1XTu2utVrSBuoggSiE=
+github.com/witchinghourartcollective/cometbft v0.39.4-0.20261027210213-dab026fe93b9 h1:ocMCmDpEwSR3s8ZxjcpRaxmpu43MgXJrAcH+v/Qyi9o=
+github.com/witchinghourartcollective/cometbft v0.39.4-0.20261027210213-dab026fe93b9/go.mod h1:Gd99HcEtyJJjCdeCKSNK5bwCz1XTu2utVrSBuoggSiE=
 github.com/wlynxg/anet v0.0.3/go.mod h1:eay5PRQr7fIVAMbTbchTnO9gG65Hg/uYGdc7mguHxoA=
 github.com/wlynxg/anet v0.0.5 h1:J3VJGi1gvo0JwZ/P1/Yc/8p63SoW98B5dHkYDmpgvvU=
 github.com/wlynxg/anet v0.0.5/go.mod h1:eay5PRQr7fIVAMbTbchTnO9gG65Hg/uYGdc7mguHxoA=

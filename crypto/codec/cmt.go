@@ -31,9 +31,9 @@ func FromCmtProtoPublicKey(protoPk cmtprotocrypto.PublicKey) (cryptotypes.PubKey
 		return &bls12_381.PubKey{
 			Key: protoPk.Bls12381,
 		}, nil
-	case *cmtprotocrypto.PublicKey_MlDsa65:
+	case *cmtprotocrypto.PublicKey_Mldsa65:
 		return &mldsa65.PubKey{
-			Key: protoPk.MlDsa65,
+			Key: protoPk.Mldsa65,
 		}, nil
 	default:
 		return nil, errors.Wrapf(sdkerrors.ErrInvalidType, "cannot convert %v from Tendermint public key", protoPk)
@@ -64,8 +64,8 @@ func ToCmtProtoPublicKey(pk cryptotypes.PubKey) (cmtprotocrypto.PublicKey, error
 		}, nil
 	case *mldsa65.PubKey:
 		return cmtprotocrypto.PublicKey{
-			Sum: &cmtprotocrypto.PublicKey_MlDsa65{
-				MlDsa65: pk.Key,
+			Sum: &cmtprotocrypto.PublicKey_Mldsa65{
+				Mldsa65: pk.Key,
 			},
 		}, nil
 	default:
